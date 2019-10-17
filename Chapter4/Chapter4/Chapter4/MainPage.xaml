@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Chapter4"
+             x:Class="Chapter4.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Button Text="ButtonStylesWithResourcesPage" Clicked="ButtonStylesWithResourcesPage"/>
+        <Button Text="CSSPage" Clicked="CSSPage"/>
+        <Button Text="CustomDarkThemePage" Clicked="CustomDarkThemePage"/>
+        <Button Text="DeviceStylePage" Clicked="DeviceStylePage"/>
+        <Button Text="DynamicResourcePage" Clicked="DynamicResourcePage"/>
+        <Button Text="ExplicitStylePage" Clicked="ExplicitStylePage"/>
+        <Button Text="ImplicitStylePage" Clicked="ImplicitStylePage"/>
+        <Button Text="LocalDesignPage" Clicked="LocalDesignPage"/>
+        <Button Text="OverridingStylesPage" Clicked="OverridingStylesPage"/>
+        <Button Text="StaticResourcesPage" Clicked="StaticResourcesPage"/>
+        <Button Text="StylesPage" Clicked="StylesPage"/>
+    </StackLayout>
+
+</ContentPage>

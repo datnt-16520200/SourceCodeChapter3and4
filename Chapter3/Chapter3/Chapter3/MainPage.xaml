@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Chapter3"
+             x:Class="Chapter3.MainPage">
+
+    <StackLayout>
+        <Button Text="AbsoluteLayoutExample" Clicked="AbsoluteLayoutExample"/>
+        <Button Text="ContentViewExample" Clicked="ContentViewExample"/>
+        <Button Text="GridExample2" Clicked="GridExample2"/>
+        <Button Text="RelativeLayoutExample" Clicked="RelativeLayoutExample"/>
+        <Button Text="StackLayoutHorizontal" Clicked="StackLayoutHorizontal"/>
+        <Button Text="SubContentView" Clicked="SubContentView"/>
+    </StackLayout>
+
+</ContentPage>
